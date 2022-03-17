@@ -30,7 +30,7 @@ jobs:
         run: echo "Hello, GitHub script!"
 
       - name: Create issue
-        uses: actions/github-script@v3.1.0
+        uses: actions/github-script@v6
         id: create-issue
         with:
           # https://octokit.github.io/rest.js/v18#issues-create
@@ -46,7 +46,7 @@ jobs:
             return create.data.number
 
       - name: Update issue
-        uses: actions/github-script@v3.1.0
+        uses: actions/github-script@v6
         with:
           # https://octokit.github.io/rest.js/v18#issues-create
           github-token: ${{secrets.GITHUB_TOKEN}}
