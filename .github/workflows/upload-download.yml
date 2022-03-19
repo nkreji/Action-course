@@ -11,7 +11,7 @@ jobs:
     steps:
         
       # Upload an artifact to GitHub
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - name: Upload Artifact to Github Build Job
         uses: actions/upload-artifact@v2
         with:
