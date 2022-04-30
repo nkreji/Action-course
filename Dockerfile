@@ -12,7 +12,7 @@ FROM myoung34/github-runner:latest
 #########################################
 ARG orgname="gh-workflows"
 # change this to repo name
-ARG reponame="actions-practice"
+ARG reponame="actions-course"
 
 #########################################
 # Label the instance and set maintainer #
