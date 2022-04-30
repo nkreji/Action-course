@@ -19,6 +19,8 @@ on:
     branches-ignore:
       - 'master'
       - 'main'
+      
+  workflow_dispatch:
 
 ###############
 # Set the Job #
