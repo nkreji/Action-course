@@ -10,7 +10,8 @@ FROM myoung34/github-runner:latest
 #########################################
 # Variables #
 #########################################
-ARG orgname="gh-mentor"
+ARG orgname="gh-workflows"
+# change this to repo name
 ARG reponame="actions-practice"
 
 #########################################
@@ -64,6 +65,12 @@ RUN mkdir -p /action/lib
 # Copy scripts to container #
 #############################
 COPY library /action/lib
+
+#############################
+# Make script executable
+#############################
+
+RUN chmod -x /action/lib/entrypoint.sh
 
 ######################
 # Set the entrypoint #
