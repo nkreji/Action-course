@@ -77,6 +77,12 @@ In this session, we are going to be deploying an application within a **Docker**
       # Copy scripts to container #
       #############################
       COPY library /action/lib
+      
+      #############################
+      # Make script executable
+      #############################
+
+      RUN chmod -x /action/lib/entrypoint.sh
 
       ######################
       # Set the entrypoint #
