@@ -1,4 +1,4 @@
-# :pencil2: Exercises
+# Exercises
 
 The goal of these exercises is to create a CI/CT/CD workflow with GitHub Actions.
 
@@ -46,7 +46,7 @@ As you work progressively along all the ordered files, your workflow will become
 - [**Advanced**: Additional information on Best Practices for Complex Workflows](./08.D-Split-Jobs-for-Speed.md)
 - [**Advanced**: Reusing a Local Action](./09-Create-New-Repo-To-Pull-In-Container.md)
 
-## :book: Additional Resources
+## Additional Resources
 
 - [GitHub Actions Documentation](https://docs.github.com/en/free-pro-team@latest/actions)
 - [Self-paced Learning Lab Course on DevOps Pipeline with GitHub Actions](https://lab.github.com/githubtraining/devops-with-github-actions)
